@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Liminal Spaces: Dreamcore Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="loading-screen">
+        <div class="loading-content">
+            <h1>¿DÓNDE ESTAMOS?</h1>
+            <p>Cargando el exterior...</p>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <div id="game-container"></div>
+
+    <div id="ui-container">
+        <div id="joystick-zone">
+            <div id="joystick-base">
+                <div id="joystick-handle"></div>
+            </div>
+        </div>
+        
+        <div id="camera-zone">
+            <span>Desliza aquí para mirar</span>
+        </div>
+    </div>
+
+    <script src="ui.js"></script>
+    <script src="player.js"></script>
+    <script src="world.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
+
